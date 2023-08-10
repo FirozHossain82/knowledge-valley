@@ -16,7 +16,7 @@ const Home = () => {
   };
 
   return (
-    <div className="grid grid-rows-2 grid-flow-row lg:grid-flow-col  ">
+    <div className="grid grid-rows-4 lg:grid-rows-2 grid-flow-row lg:grid-flow-col  ">
       <div className="row-span-4 m-2 lg:m-10 mb-0 lg:mb-0">
         <div className="grid grid-rows-6 sm:grid-rows-3 md:grid-rows-3 gap-5  ">
           {
