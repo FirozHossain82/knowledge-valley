@@ -6,9 +6,10 @@ import {
   faLocationDot,
 } from "@fortawesome/free-solid-svg-icons";
 import "./Blogs.css";
-const Blogs = ({ blog, handleAddToCart }) => {
-  console.log(blog);
-  const { cover_image, author_image, author_name, title, time, date } = blog;
+
+const Blogs = ({ blog,handleAddToCart }) => {
+  // console.log(blog);
+  const { cover_image, author_image, author_name, title, duration, date } = blog;
   return (
     <div className="card  bg-base-100 shadow-xl border-2  h-[460px] rounded-lg font-serif relative">
       <figure className=" py-3">
@@ -32,10 +33,10 @@ const Blogs = ({ blog, handleAddToCart }) => {
         </div>
         <div className="flex">
           <div>
-            <h1 className="text-sm lg:text-lg font-bold">{time}Min Read</h1>
+            <h1 className="text-sm lg:text-lg font-bold">{duration}Min Read</h1>
           </div>
           <div>
-            <button className="ml-2">
+            <button onClick={()=>handleAddToCart(blog) } className="ml-2">
               <FontAwesomeIcon icon={faBookmark}></FontAwesomeIcon>
             </button>
           </div>
@@ -46,8 +47,7 @@ const Blogs = ({ blog, handleAddToCart }) => {
        <p className="text-sm font-medium mt-4 mb-0"><span>#beginners #programming</span></p>
        </div>
         <div className="mb-2 mt-0 ml-2 flex justify-start">
-          <button
-            onClick={() => handleAddToCart()}
+          <button onClick={()=>handleAddToCart(blog) }
             className="border-2 bg-base-100 rounded-lg p-2 mt-5 text-blue font-serif font-semibold "
           >
             Mark as read
