@@ -28,7 +28,7 @@ const Home = () => {
           }
         </div>
       </div>
-      <div className="row-span-1 grid-cols-1  bg-white mt-3 sm:mt-3 lg:mt-2 shadow-lg sm:m-2 lg:mr-36 lg:ml-12 rounded-lg sm:rounded-lg lg:rounded-none  ">
+      <div className="row-span-1 lg:rounded-xl grid-cols-1  bg-white mt-3 sm:mt-3 lg:mt-2 shadow-lg sm:m-2 lg:mr-36 lg:ml-12 sm:rounded-lg ">
         <Cart></Cart>
       </div>
     </div>
