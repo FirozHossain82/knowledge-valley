@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "author_name": "Frioz Hossain",
+    "title": "React is a free and open_source front_end JavaScript library",
+    "cover_image": "https://solguruz.com/wp-content/uploads/2022/09/ReactJS-Framework-Benefits.png",
+    "author_image": "https://i.ibb.co/NtrLjxM/Formal-CV-Picture-copy-300-px.jpg",
+    "time": "15"
+  },
+  {
+    "id": "2",
+    "author_name": "Ashif Hossain",
+    "title": "Next.js supports both server and client data fetching.",
+    "cover_image": "https://mobisoftinfotech.com/resources/wp-content/uploads/2022/04/next-JS-framework.png",
+    "author_image": "https://image.cnbcfm.com/api/v1/image/103979967-20160928-0666-2283.jpg?v=1530879569&ffmt=webp&w=400&h=300",
+    "time": "10"
+  },
+  {
+    "id": "3",
+    "author_name": "Masud Rana",
+    "title": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+    "cover_image": "https://s3-eu-west-1.amazonaws.com/blog.forestadmin.com/2021/09/FA-article-nodeJS@2x-1-.png",
+    "author_image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNUu43n9cIw12yQtEgxXrZS0ESQH4P0i5-XvNDGzwyZzMLZWqoqm-Z83jnJWbTNLpQJCA&usqp=CAU",
+    "time": "8"
+  },
+  {
+    "id": "4",
+    "author_name": "Faysal Ahmed",
+    "title": "JavaScript is a dynamic programming language that's used for web development",
+    "cover_image": "https://www.wikitechy.com/technology/wp-content/uploads/2020/08/javascript-drawbacks.jpg",
+    "author_image": "https://i.ibb.co/NtrLjxM/Formal-CV-Picture-copy-300-px.jpg",
+    "time": "20"
+  },
+  {
+    "id": "5",
+    "author_name": "Ovro Hossain",
+    "title": "Programmers write code for computer programs and mobile applications.",
+    "cover_image": "https://miro.medium.com/v2/resize:fit:1000/1*aYo7IrzJ4XJ-aENpk7iKxg.png",
+    "author_image": "https://enterprisersproject.com/sites/default/files/styles/large/public/pictures/ivan.jpg?itok=xGzVRcY-",
+    "time": "30"
+  }
+]
